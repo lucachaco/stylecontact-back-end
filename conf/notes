@@ -1,0 +1,2 @@
+add full qualified host name to /etc/hosts file to speed up emails ->
+127.0.1.1 impactstatus.com
