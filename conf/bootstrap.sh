@@ -12,7 +12,7 @@ apt-get install -y git
 
 apt-get install -y sendmail
 
-#install rails
+#install rails ->https://gorails.com/setup/ubuntu/14.10
 apt-get install -y git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties
 
 cd
