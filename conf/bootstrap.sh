@@ -43,6 +43,9 @@ gem install rails
 
 rbenv rehash
 
+#http://stackoverflow.com/questions/3608287/error-installing-mysql2-failed-to-build-gem-native-extension
+apt-get install libmysqlclient-dev
+
 # for pdf support ->  http://stackoverflow.com/questions/17557064/wicked-pdf-does-not-run-on-ubuntu-server-wkhtmltopdf-cannot-connect-to-x-serv
 
 
