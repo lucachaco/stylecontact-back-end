@@ -10,5 +10,7 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-
+//= require ace-extra.js
+//= require jquery.js
+//= require bootstrap.js
 //= require_tree .
