@@ -195,7 +195,7 @@
               <ul class="dropdown-menu dropdown-navbar">
                 <li>
                   <a href="#" class="clearfix">
-                    <img src="/assets/avatar.png" class="msg-photo" alt="Alex's Avatar"/>
+                    <img src=" <%= asset_path('avatar.png') %>" class="msg-photo" alt="Alex's Avatar"/>
 												<span class="msg-body">
 													<span class="msg-title">
 														<span class="blue">Alex:</span>
@@ -224,7 +224,7 @@
         <!-- #section:basics/navbar.user_menu -->
         <li class="light-blue">
           <a data-toggle="dropdown" href="#" class="dropdown-toggle">
-            <img class="nav-user-photo" src="/assets/user.jpg" alt="Jason's Photo"/>
+            <img class="nav-user-photo" src="<%= asset_path('user.jpg') %>" alt="Jason's Photo"/>
 								<span class="user-info">
 									<small>Welcome,</small>
 									Jason
@@ -271,7 +271,6 @@
         } catch (e) {
         }
     </script>
-
 
 
     <ul class="nav nav-list">
