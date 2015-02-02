@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  get 'services/table'
+
+  get 'services/new'
+
+  get 'services/create'
+
+  get 'services/edit'
+
+  get 'services/update'
+
+  get 'services/destroy'
+
   get 'specialists/table'
 
   get 'specialists/new'
@@ -25,6 +37,7 @@ Rails.application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   resources :specialists
+  resources :services
 
   # Example resource route with options:
   #   resources :products do
