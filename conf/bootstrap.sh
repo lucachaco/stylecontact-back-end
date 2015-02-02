@@ -12,7 +12,7 @@ apt-get install -y git
 
 apt-get install -y sendmail
 
-#install rails
+#install rails ->https://gorails.com/setup/ubuntu/14.10
 apt-get install -y git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties
 
 cd
@@ -42,6 +42,9 @@ apt-get -y install nodejs
 gem install rails
 
 rbenv rehash
+
+#http://stackoverflow.com/questions/3608287/error-installing-mysql2-failed-to-build-gem-native-extension
+apt-get install libmysqlclient-dev
 
 # for pdf support ->  http://stackoverflow.com/questions/17557064/wicked-pdf-does-not-run-on-ubuntu-server-wkhtmltopdf-cannot-connect-to-x-serv
 
