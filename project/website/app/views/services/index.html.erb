@@ -1,10 +1,7 @@
 <div class="page-header">
   <h1>
     Servicios
-    <small>
-      <i class="ace-icon fa fa-angle-double-right"></i>
-      Todos los servicios ofrecidos a los clientes
-    </small>
+
   </h1>
 </div><!-- /.page-header -->
 
@@ -20,12 +17,11 @@
         <th class="hidden-480">Precio</th>
 
         <th>
-          <i class="ace-icon fa fa-clock-o bigger-110 hidden-480"></i>
           Tiempo
         </th>
         <th class="hidden-480">Estado</th>
 
-        <th></th>
+        <th style="width: 72px;"></th>
       </tr>
       </thead>
 
@@ -50,7 +46,11 @@
               <div class="hidden-sm hidden-xs btn-group">
 
                 <button class="btn btn-xs btn-info">
-                  <i class="ace-icon fa fa-pencil bigger-120"></i>
+                  <a href="/services/<%= service.id %>/edit" style="color:#ffffff;">
+
+                    <i class="ace-icon fa fa-pencil bigger-120"></i>
+                  </a>
+
                 </button>
 
                 <button class="btn btn-xs btn-danger">
